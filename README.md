@@ -30,6 +30,18 @@ This project provides a Python function called simplify_numbers, which can simpl
    Example: 38,7 Grad Celsius → Bei etwa 39 Grad Celsius
 
 
+# Usage
+- Clone the repository or copy the simplify_numbers function into your project.
+- Import the function into your script:
+  ```from simplify_numbers import simplify_numbers```
+- Use the function by passing raw text as an argument:
+  ```
+  text = "324.620,22 Euro wurden gespendet."
+  simplified_text = simplify_numbers(text)
+  print(simplified_text)
+  ```
+
+
 
 **Input**
 ```
